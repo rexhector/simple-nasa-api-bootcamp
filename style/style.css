@@ -1,0 +1,52 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img,iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  color:  rgb(35, 148, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  background-image: url("https://images.hindustantimes.com/tech/img/2023/04/05/960x540/nasa_1680674474970_1680674483196_1680674483196.jpg");
+  background-size: cover;
+}
+div {
+  width: 10%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 45%;
+}
+
+h1{
+  margin-top: 10%;
+}
